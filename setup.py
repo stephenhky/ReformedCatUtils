@@ -14,7 +14,7 @@ def install_requirements():
 
 setup(
     name='reformedcatutils',
-    version="0.0.2",
+    version="0.0.3",
     description="Helper functions for ReformedCat Project",
     long_description="Helper functions for ReformedCat Project",
     long_description_content_type='text/markdown',
