@@ -1548,3 +1548,13 @@ maxnbverses_dict = {
     21
   ]
 }
+
+
+class BibleTriviaExtractor:
+    @staticmethod
+    def get_number_chapters(book):
+        return numchaps[book]
+
+    @staticmethod
+    def get_number_verses(book, chapter):
+        return maxnbverses_dict[book][chapter-1]
